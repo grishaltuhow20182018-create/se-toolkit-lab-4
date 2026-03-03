@@ -11,9 +11,7 @@ class Settings(BaseSettings):
     api_key: str = Field(..., alias="API_KEY")
 
     model_config = SettingsConfigDict(
-        env_file_encoding="utf-8",
-        case_sensitive=True,
-        extra="allow"
+        env_file_encoding="utf-8", case_sensitive=True, extra="allow"
     )
 
 
