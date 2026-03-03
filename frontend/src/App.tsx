@@ -9,6 +9,7 @@ interface Item {
   title: string
   created_at: string
   description: string;
+  description: string;
 }
 
 function App() {
